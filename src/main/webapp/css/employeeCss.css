@@ -1,0 +1,45 @@
+.employee-body{
+	background-color: lavender;
+}
+
+.main-div {
+	width: 660px;
+	background-color: white;
+}
+
+.h3-title {
+	color: blue;
+}
+
+.main-form {
+	align-content: center;
+	padding: 5px 5px 5px 5px;
+}
+
+.index-div {
+	width: 650px;
+	padding-top: 10%;
+	background-color: lavender;
+}
+
+.float-right{
+	float: right;
+}
+.table-div {
+	width: 100%;
+}
+
+/* table.dataTable td {
+	background-color: white;
+	border: 1px lightgrey;
+}
+
+table.dataTable tr:even {
+	background-color: white;
+	border: 1px lightgrey;
+}
+
+table.dataTable tr:odd {
+	background-color: #c0c0c0;
+	border: 1px lightgrey;
+} */
