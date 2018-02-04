@@ -23,7 +23,7 @@
 </head>
 <body>
 	<c:if test="${not empty addedEmployee}">
-		<h3 align="center">${employee.name}hasbeen added with Id
+		<h3 align="center">${employee.name} has been added with Id
 			${employee.id}</h3>
 	</c:if>
 	<div class='table-div'>
