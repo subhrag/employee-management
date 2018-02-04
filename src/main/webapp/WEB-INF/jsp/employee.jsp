@@ -32,14 +32,14 @@
 			<div class="row">
 				<div class="col-sm-3"></div>
 				<div class="form-group col-sm-6">
-					<label>Employee Name :</label> <input name='name' type='text' />
+					<label>Employee Name :</label> <input class='inpt-emp-name' name='name' type='text' />
 				</div>
 				<div class="col-sm-3"></div>
 			</div>
 			<div class="row">
 				<div class="col-sm-3"></div>
 				<div class="form-group col-sm-6">
-					<label>Organization Name : </label> <input class="float-right" name='organization'
+					<label>Organization Name : </label> <input class="inpt-org-name" name='organization'
 						type='text' />
 				</div>
 				<div class="col-sm-3"></div>
@@ -48,7 +48,7 @@
 			<div class="row" align="center">
 				<div class="col-sm-3"></div>
 				<div class="form-group col-sm-6">
-					<input class="btn btn-primary" type="submit" value="Submit">
+					<input class="btn btn-primary btn-add-employee" type="submit" value="Submit" onclick="">
 					<button class="back-button btn btn-primary" type='button'>Back</button>
 				</div>
 				<div class="col-sm-3"></div>

@@ -16,4 +16,22 @@ $(document).ready(function() {
 	});
 
 	$('#employeeTable').DataTable();
+	
+	$('.btn-add-employee').on('click', function(event){
+		event.preventDefault();
+		
+		if($('.inpt-emp-name').val() == ""){
+			alert('Employee Name is required !');
+			$('.inpt-emp-name').focus();
+			return;
+		}
+		if($('.inpt-org-name').val() == ""){
+			alert('Organization name is required !');
+			$('.inpt-org-name').focus();
+			return;
+		}
+		
+		$('.main-form').submit();
+	});
+	
 });
